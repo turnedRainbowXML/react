@@ -1,0 +1,26 @@
+.goodsItem{
+        box-sizing: border-box;
+        display: inline-block;
+        width: 50%;
+        padding: 0.2rem 0;
+       li{
+           height: 5.6rem;
+           position: relative;
+           i{
+               img{
+                    width: 98%;
+                    height: 4.5rem;
+                    padding: 1%;
+               }
+           }
+           .goodsName{
+            position: absolute;
+            bottom: 0.4rem;
+           }
+           .price{
+            font-weight: bold;
+            position: absolute;
+            bottom: 0rem;
+        }
+       }
+    }   

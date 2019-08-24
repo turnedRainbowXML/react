@@ -1,0 +1,14 @@
+{ 
+    "_id" : ObjectId("5d2590451036d0009467b057"), 
+    "sex" : NumberInt(1), 
+    "username" : "shuaijiajin", 
+    "age" : NumberInt(21), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d2590c52d291e1b54a962f3"), 
+    "sex" : NumberInt(1), 
+    "username" : "shuaijiajin", 
+    "age" : NumberInt(20), 
+    "__v" : NumberInt(0)
+}

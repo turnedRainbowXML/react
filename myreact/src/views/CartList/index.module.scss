@@ -1,0 +1,144 @@
+.mycart {
+    margin-bottom: 3rem;
+  }
+  h3 {
+    //   position: fixed;
+    text-align: center;
+    padding: 0.3rem 0;
+    letter-spacing: 1px;
+    font-weight: 1000;
+    border-bottom: 1px solid rgb(209, 206, 206);
+  }
+  .cartList {
+    padding-bottom: 0.8rem;
+  }
+  
+  .cartItem {
+    border-bottom: 1px solid rgb(209, 206, 206);
+    padding: 0.5rem 0.2rem;
+    display: flex;
+  
+    .choice {
+      margin-right: 0.2rem;
+      width: 0.32rem;
+      align-self: center;
+    }
+  
+    .thumbnail {
+      margin-right: 0.4rem;
+      width: 1.5rem;
+      height: 1.5rem;
+      object-fit: cover;
+    }
+  
+    .info {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      display: flex;
+      justify-content: space-between;
+  
+      .title {
+        font-size: 0.26rem;
+        color: #333;
+        font-weight: bold;
+      }
+  
+      .sku {
+        font-size: 0.2rem;
+        color: #666;
+      }
+  
+      .price-num {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+  
+        .price {
+          font-size: 0.24rem;
+          color: orangered;
+        }
+  
+        .num {
+          display: flex;
+          align-items: center;
+          color: #666;
+  
+          .label {
+            margin-right: 0.1rem;
+            font-size: 0.24rem;
+            color: #333;
+          }
+          img {
+            width: 0.32rem;
+          }
+          .val {
+            display: inline-block;
+            width: 0.6rem;
+            //   padding: 0 0.3rem;
+            margin: 0.1rem;
+            text-align: center;
+            font-size: 0.24rem;
+            color: black;
+            box-sizing: border-box;
+            border: rgb(121, 119, 119) solid 1px;
+          }
+        }
+      }
+    }
+  }
+  
+  .bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0.7rem;
+    border-top: 1px solid silver;
+    background-color: #fff;
+    padding: 0 0.4rem;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    .left {
+      display: flex;
+      align-items: center;
+  
+      .all {
+        margin-right: 0.4rem;
+        display: flex;
+        align-items: center;
+  
+        img {
+          margin-right: 0.2rem;
+          width: 0.32rem;
+        }
+  
+        span {
+          font-size: 0.24rem;
+        }
+      }
+  
+      button {
+        height: 0.4rem;
+        font-size: 0.28rem;
+      }
+    }
+  
+    .right {
+      display: flex;
+      align-items: center;
+  
+      span {
+        margin-right: 0.2rem;
+        font-size: 0.24rem;
+      }
+  
+      button {
+        height: 0.4rem;
+        font-size: 0.28rem;
+      }
+    }
+  }

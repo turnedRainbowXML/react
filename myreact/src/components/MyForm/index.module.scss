@@ -1,0 +1,38 @@
+.myForm{
+    text-align: center;
+    margin-top: 1.5rem;
+
+    h1{
+        margin: 0.3rem 0;
+        color: #65dbfc;
+    }
+    p{
+        padding: 0.3rem 0s;
+    }
+    
+    .cell{
+        margin: 0.3rem 1rem;
+        display: flex;
+        align-items: center;
+    
+        label{
+            width: 1rem;
+        }
+    
+        input{
+            border: 0;
+            border-bottom: 1px solid gray;
+            flex: 1;
+            height: 0.6rem;
+        }
+    }
+    :global(.am-button){
+        width: 6rem;
+        margin: 0 auto;
+    }
+    
+    .bottom{
+        margin-top: 0.4rem;
+    }
+}
+

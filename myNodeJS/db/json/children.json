@@ -1,0 +1,7 @@
+{ 
+    "_id" : ObjectId("5d258f2da257341f443cc52e"), 
+    "sex" : NumberInt(0), 
+    "username" : "xiaobu", 
+    "age" : NumberInt(27), 
+    "__v" : NumberInt(0)
+}

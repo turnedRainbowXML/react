@@ -1,0 +1,103 @@
+.buy {
+    width: 100%;
+      h2 {
+        text-align: center;
+        margin: 0.3rem 0;
+    }
+    .newaddress {
+      position: relative;
+      display: flex;
+      border-bottom: 10px solid #e9ecf3;
+      .newaddress1 {
+        img {
+          padding-left: 0.3rem;
+        }
+      }
+      p {
+        font-size: 0.32rem;
+        padding-left: 0.3rem;
+        line-height: 0.7rem;
+      }
+      .youjiantou {
+        position: absolute;
+        right: 0.3rem;
+        margin-top: 0.1rem;
+        img {
+          width: 0.4rem;
+          height: 0.4rem;
+        }
+      }
+    }
+    .item {
+      position: relative;
+      li {
+        display: flex;
+        padding: 0.5rem 0.3rem;
+        .item2 {
+          position: absolute;
+          right: 0.8rem;
+        }
+        .item1 {
+          position: absolute;
+          right: 0.3rem;
+          img {
+            width: 0.4rem;
+            height: 0.4rem;
+          }
+        }
+      }
+      .itemh {
+        border-bottom: 10px solid #ebebeb;
+        .itemh1 {
+          padding-left: 0.3rem;
+        }
+        .itemh2 {
+          position: absolute;
+          right: 0.3rem;
+          img {
+            width: 0.4rem;
+            height: 0.4rem;
+          }
+        }
+      }
+    }
+    .foot1 {
+      margin-top: 0.2rem;
+      ul {
+        padding: 0.1rem 0.4rem;
+        .title {
+          display: flex;
+          position: relative;
+          .goodsName{
+            display: inline-block;
+            width: 3.5rem;
+          }
+          img{
+            margin-right: 0.2rem;
+            width: 1.2rem;
+            height: 1.2rem;
+          }
+          .num{
+            padding: 0.3rem 0;
+          }
+          .price{
+            position: absolute;
+            right: 0.5rem;
+            font-weight: bolder;
+            font-size: 0.32rem;
+          }
+        }
+      }
+      
+    }
+    .account{
+      display: flex;
+      justify-content: space-between;
+      padding: 0.3rem 0.4rem;
+      padding-right: 0.9rem;
+      font-weight: bolder;
+      .totalPrice{
+        font-size: 0.32rem;
+      }
+    }
+  }

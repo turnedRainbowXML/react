@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>商品详情</title>
+</head>
+<body>
+    <div class="content">
+
+    </div>
+    <button id="btn">点击添加到购物车</button>
+
+    <script src="../javascripts/jquery.js"></script>
+    <script>
+        const goodsId = '5d25a82f4a42de24e010b060'
+
+        $.ajax({
+            method: 'post',
+            url: 'http://localhost:8888/goods/detail',
+            data: {
+                goodsId 
+            },
+            success(res){
+                const {code,msg,info} = res
+
+                if(code == 1){
+                    const {goodsDesc,goodsPrice,goodsNum} = info
+
+                    $('.content').html(
+                        `
+                        <div class="goodsDesc">${goodsDesc}</div>
+                        <div class="goodsPrice">${goodsPrice}</div>
+                        <div class="goodsNum">${goodsNum}</div>              
+                        `
+                    )
+                }else{
+                    alert(msg)
+                }
+            }
+        })
+
+        $('#btn').on('click',() => {
+            // 以前的我们，是先从本地获取cookie，判断是否登录
+
+            // 现在的我们，变了，先从本地获取token，然后带上这个token，请求添加到购物车接口，让接口判断我们是否登录
+            const token = localStorage.getItem('token')
+
+            // 如果token为空，先存储当前页面，再跳转到登录页面
+            if(!token){
+                sessionStorage.setItem('backUrl',location.href)
+                location.href = './login.html'
+                return false
+            }
+
+            $.ajax({
+                method: 'post',
+                url: 'http://localhost:8888/cart/add',
+                data: {
+                    id: goodsId,
+                    token
+                },
+                success(res){
+                    const {code,msg,info} = res
+
+                    if(code == 1){
+                        // 根据后端返回的信息，进行剩下的操作
+                        console.log(msg)
+                    }else if(code == -2){
+                        // 记录下当前页面
+                        sessionStorage.setItem('backUrl',location.href)
+
+                        // 跳转到登录页面
+                        location.href = './login.html'
+                    }
+                }
+            })            
+        })
+    </script>
+</body>
+</html>

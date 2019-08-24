@@ -1,0 +1,175 @@
+{ 
+<<<<<<< HEAD
+    "_id" : ObjectId("5d579b0063c84929383bcd45"), 
+    "goodsSkus" : [
+        "多功能白领养生壶"
+    ], 
+    "goodsNum" : NumberInt(0), 
+    "buySku" : "多功能白领养生壶", 
+    "buyNum" : NumberInt(4), 
+    "username" : "xiaoxiao", 
+    "goodsId" : "5d5611338f1ad7c7a4c71ed9", 
+    "goodsName" : "多功能白领养生壶", 
+    "goodsImg" : "/images/home/New (2).jpg", 
+    "goodsPrice" : NumberInt(209), 
+    "goodsDesc" : "炖汤、煮粥、花茶、炖甜品、婴儿水......全都帮你搞定", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d57a3e363c84929383bcd46"), 
+    "goodsSkus" : [
+        "儿童牙刷（3-6岁）", 
+        "儿童牙刷（6-12岁）"
+    ], 
+    "goodsNum" : NumberInt(0), 
+    "buySku" : "儿童牙刷（3-6岁）", 
+    "buyNum" : NumberInt(3), 
+    "username" : "xiaoxiao", 
+    "goodsId" : "5d5612b88f1ad7c7a4c71edb", 
+    "goodsName" : "超细软毛儿童牙刷（3支装）", 
+    "goodsImg" : "/images/home/New (4).jpg", 
+    "goodsPrice" : NumberInt(17), 
+    "goodsDesc" : "从小爱到大", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d5b717176c47b076860c49e"), 
+    "goodsSkus" : [
+        "多功能白领养生壶"
+    ], 
+    "goodsNum" : NumberInt(0), 
+    "buySku" : "多功能白领养生壶", 
+    "buyNum" : NumberInt(2), 
+    "username" : "12345678901", 
+    "goodsId" : "5d5611338f1ad7c7a4c71ed9", 
+    "goodsName" : "多功能白领养生壶", 
+    "goodsImg" : "/images/home/New (2).jpg", 
+    "goodsPrice" : NumberInt(209), 
+    "goodsDesc" : "炖汤、煮粥、花茶、炖甜品、婴儿水......全都帮你搞定", 
+=======
+    "_id" : ObjectId("5d27f19049db721bf8ced52b"), 
+    "goodsNum" : NumberInt(1), 
+    "buySku" : "XL", 
+    "buyNum" : NumberInt(2), 
+    "username" : "xiaobu", 
+    "goodsId" : "5d25a7594a42de24e010b05f", 
+    "goodsName" : "reganmian", 
+    "goodsImg" : "/images/food/reganmian.jpg", 
+    "goodsPrice" : 4.5, 
+    "goodsTitle" : "好吃，就是太干了", 
+    "goodsDesc" : "武汉的特色美食", 
+    "__v" : NumberInt(0), 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d3669509da24a1a4000671c"), 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ], 
+    "goodsNum" : NumberInt(1), 
+    "buySku" : "L", 
+    "buyNum" : NumberInt(2), 
+    "username" : "huohuo", 
+    "goodsId" : "5d25a7594a42de24e010b05f", 
+    "goodsName" : "热干面", 
+    "goodsImg" : "/images/food/reganmian.jpg", 
+    "goodsPrice" : 4.5, 
+    "goodsTitle" : "好吃，就是太干了", 
+    "goodsDesc" : "热干面是中国十大面条之一，是湖北武汉最出名的小吃之一，有多种做法。通常以油、盐、芝麻酱、色拉油、香油、细香葱、大蒜子、辣萝卜丁，卤水汁、生抽为辅助材料。其色泽黄而油润，味道鲜美，由于热量高，也可以当作主食，营养早餐，补充人体所需的能量", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d36833fd42ec7093ca108d9"), 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ], 
+    "goodsNum" : NumberInt(1), 
+    "buySku" : "XXL", 
+    "buyNum" : NumberInt(8), 
+    "username" : "xiaobu", 
+    "goodsId" : "5d25a7594a42de24e010b05f", 
+    "goodsName" : "热干面", 
+    "goodsImg" : "/images/food/reganmian.jpg", 
+    "goodsPrice" : 4.5, 
+    "goodsTitle" : "好吃，就是太干了", 
+    "goodsDesc" : "热干面是中国十大面条之一，是湖北武汉最出名的小吃之一，有多种做法。通常以油、盐、芝麻酱、色拉油、香油、细香葱、大蒜子、辣萝卜丁，卤水汁、生抽为辅助材料。其色泽黄而油润，味道鲜美，由于热量高，也可以当作主食，营养早餐，补充人体所需的能量", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d36d0ba16cd5b19e4b74eef"), 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ], 
+    "goodsNum" : NumberInt(5), 
+    "buySku" : "L", 
+    "buyNum" : NumberInt(8), 
+    "username" : "xiaobu", 
+    "goodsId" : "5d25a9374a42de24e010b063", 
+    "goodsName" : "拉面", 
+    "goodsImg" : "/images/food/lamian.jpg", 
+    "goodsPrice" : NumberInt(8), 
+    "goodsTitle" : "好吃，就是肉太少了", 
+    "goodsDesc" : "拉面可以蒸、煮、烙、炸、炒，各有一番风味。拉面的技术性很强，要制好拉面必须掌握正确要领，即和面要防止脱水，晃条必须均匀， 出条要均匀圆滚，下锅要撒开， 防止蹲锅疙瘩。拉面根据不同口味和喜好还可制成小拉条、空心拉面、夹馅拉面、毛细、二细、大宽、龙须面、扁条拉面、水拉面等不同形状和品种。", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d36d0bd16cd5b19e4b74ef0"), 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ], 
+    "goodsNum" : NumberInt(5), 
+    "buySku" : "XL", 
+    "buyNum" : NumberInt(7), 
+    "username" : "xiaobu", 
+    "goodsId" : "5d25a9374a42de24e010b063", 
+    "goodsName" : "拉面", 
+    "goodsImg" : "/images/food/lamian.jpg", 
+    "goodsPrice" : NumberInt(8), 
+    "goodsTitle" : "好吃，就是肉太少了", 
+    "goodsDesc" : "拉面可以蒸、煮、烙、炸、炒，各有一番风味。拉面的技术性很强，要制好拉面必须掌握正确要领，即和面要防止脱水，晃条必须均匀， 出条要均匀圆滚，下锅要撒开， 防止蹲锅疙瘩。拉面根据不同口味和喜好还可制成小拉条、空心拉面、夹馅拉面、毛细、二细、大宽、龙须面、扁条拉面、水拉面等不同形状和品种。", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d36d0c216cd5b19e4b74ef1"), 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ], 
+    "goodsNum" : NumberInt(5), 
+    "buySku" : "XXL", 
+    "buyNum" : NumberInt(12), 
+    "username" : "xiaobu", 
+    "goodsId" : "5d25a9374a42de24e010b063", 
+    "goodsName" : "拉面", 
+    "goodsImg" : "/images/food/lamian.jpg", 
+    "goodsPrice" : NumberInt(8), 
+    "goodsTitle" : "好吃，就是肉太少了", 
+    "goodsDesc" : "拉面可以蒸、煮、烙、炸、炒，各有一番风味。拉面的技术性很强，要制好拉面必须掌握正确要领，即和面要防止脱水，晃条必须均匀， 出条要均匀圆滚，下锅要撒开， 防止蹲锅疙瘩。拉面根据不同口味和喜好还可制成小拉条、空心拉面、夹馅拉面、毛细、二细、大宽、龙须面、扁条拉面、水拉面等不同形状和品种。", 
+>>>>>>> 3f0caf0862752a9bcece2df71549c4e088f8b6b5
+    "__v" : NumberInt(0)
+}

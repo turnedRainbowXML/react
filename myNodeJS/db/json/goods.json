@@ -1,0 +1,568 @@
+{ 
+<<<<<<< HEAD
+    "_id" : ObjectId("5d5611338f1ad7c7a4c71ed9"), 
+    "goodsName" : "多功能白领养生壶", 
+    "goodsImg" : "/images/home/New (2).jpg", 
+    "swiperImg" : "/images/home/New (2).jpg", 
+    "goodsPrice" : NumberInt(209), 
+    "originalPrice" : NumberInt(299), 
+    "goodsDesc" : "炖汤、煮粥、花茶、炖甜品、婴儿水......全都帮你搞定", 
+    "Promotion" : "购买本商品送白领下午茶", 
+    "address" : "上海（满99包邮）", 
+    "describe" : "仅限新人首单", 
+    "goodsSkus" : [
+        "多功能白领养生壶"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d5612048f1ad7c7a4c71eda"), 
+    "goodsName" : "五谷杂粮保鲜桶", 
+    "goodsImg" : "/images/home/New (5).jpg", 
+    "swiperImg" : "/images/home/New (5).jpg", 
+    "goodsPrice" : NumberInt(29), 
+    "originalPrice" : NumberInt(32), 
+    "goodsDesc" : "分格设计，一桶多用省空间", 
+    "address" : "上海（满99包邮）", 
+    "describe" : "新用户专享", 
+    "goodsSkus" : [
+        "二分格", 
+        "四分格", 
+        "二分格+四分格"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d5612b88f1ad7c7a4c71edb"), 
+    "goodsName" : "超细软毛儿童牙刷（3支装）", 
+    "goodsImg" : "/images/home/New (4).jpg", 
+    "swiperImg" : "/images/home/New (4).jpg", 
+    "goodsPrice" : NumberInt(17), 
+    "originalPrice" : NumberInt(19), 
+    "goodsDesc" : "从小爱到大", 
+    "address" : "上海（满99包邮）", 
+    "describe" : "仅限新人首单", 
+    "goodsSkus" : [
+        "儿童牙刷（3-6岁）", 
+        "儿童牙刷（6-12岁）"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d56137a8f1ad7c7a4c71edc"), 
+    "goodsName" : "女士60支棉轻薄亲肤内裤（3条装-鲸鱼系列）", 
+    "goodsImg" : "/images/home/New (6).jpg", 
+    "swiperImg" : "/images/home/New (6).jpg", 
+    "goodsPrice" : NumberInt(59), 
+    "originalPrice" : NumberInt(65), 
+    "goodsDesc" : "轻薄60支棉纱，更透气", 
+    "Promotion" : "订单包含本品，享受全单包邮", 
+    "address" : "上海（满99包邮）", 
+    "describe" : "限时包邮", 
+    "goodsSkus" : [
+        "鲸鱼系列"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d56145a8f1ad7c7a4c71edd"), 
+    "goodsName" : "免手洗省力旋风拖把（双拖头）", 
+    "goodsImg" : "/images/home/New (7).jpg", 
+    "swiperImg" : "/images/home/New (7).jpg", 
+    "goodsPrice" : NumberInt(179), 
+    "originalPrice" : NumberInt(299), 
+    "goodsDesc" : "比普通旋风拖把，多一个拖头", 
+    "Promotion" : "订单包含本品，享受全单包邮", 
+    "address" : "上海（满99包邮）", 
+    "describe" : "送替换装", 
+    "goodsSkus" : [
+        "替换装（2个拖把头）", 
+        "拖把"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d5614c78f1ad7c7a4c71ede"), 
+    "goodsName" : "食品级抗菌双面可立砧板", 
+    "goodsImg" : "/images/home/New (3).jpg", 
+    "swiperImg" : "/images/home/New (3).jpg", 
+    "goodsPrice" : NumberInt(69), 
+    "originalPrice" : NumberInt(89), 
+    "goodsDesc" : "抗菌率高于99%", 
+    "address" : "上海（满99包邮）", 
+    "describe" : "新用户专享", 
+    "goodsSkus" : [
+        "红色", 
+        "蓝色"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d5a05d433574841afb7be63"), 
+    "goodsName" : "有氧纱透气夏被（满星点点）", 
+    "goodsImg" : "/images/home/qj (5).png", 
+    "swiperImg" : "/images/home/qj (5).png", 
+    "goodsPrice" : 179.0, 
+    "originalPrice" : 269.0, 
+    "goodsDesc" : "盖上它，身体会慢慢吸收", 
+    "address" : "北京（满99包邮）", 
+    "describe" : "换季出清", 
+    "goodsSkus" : [
+        "1.5*2", 
+        "1.8*2"
+    ], 
+    "goodsType" : 1.0
+}
+{ 
+    "_id" : ObjectId("5d5a06b233574841afb7be64"), 
+    "goodsName" : "女士典雅蕾丝家居服（掠影款）", 
+    "goodsImg" : "/images/home/qj (6).png", 
+    "swiperImg" : "/images/home/qj (6).png", 
+    "goodsPrice" : 75.0, 
+    "originalPrice" : 99.0, 
+    "goodsDesc" : "一半性感，一半优雅", 
+    "address" : "北京（满99包邮）", 
+    "describe" : "换季出清", 
+    "goodsSkus" : [
+        "M", 
+        "L", 
+        "XL"
+    ], 
+    "goodsType" : 1.0
+}
+{ 
+    "_id" : ObjectId("5d5a073233574841afb7be65"), 
+    "goodsName" : "女士60条棉轻薄亲肤内裤（3条装-鲸鱼系列）", 
+    "goodsImg" : "/images/home/qj (1).png", 
+    "swiperImg" : "/images/home/qj (1).png", 
+    "goodsPrice" : 59.0, 
+    "originalPrice" : 99.0, 
+    "goodsDesc" : "轻薄60支棉纱，更透气", 
+    "address" : "北京（满99包邮）", 
+    "describe" : "限时包邮", 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL"
+    ], 
+    "goodsType" : 1.0
+}
+{ 
+    "_id" : ObjectId("5d5a07a833574841afb7be66"), 
+    "goodsName" : "时尚潮流夹脚凉拖", 
+    "goodsImg" : "/images/home/qj (2).png", 
+    "swiperImg" : "/images/home/qj (2).png", 
+    "goodsPrice" : 24.0, 
+    "originalPrice" : 29.0, 
+    "goodsDesc" : "穿着它，时髦整个夏天", 
+    "address" : "北京（满99包邮）", 
+    "describe" : "换季出清", 
+    "goodsSkus" : [
+        "37码", 
+        "38码", 
+        "39码", 
+        "40码"
+    ], 
+    "goodsType" : 1.0
+}
+{ 
+    "_id" : ObjectId("5d5a088a33574841afb7be67"), 
+    "goodsName" : "纯棉印花床笠/床单（清新系列）", 
+    "goodsImg" : "/images/home/qj (3).png", 
+    "swiperImg" : "/images/home/qj (3).png", 
+    "goodsPrice" : 89.0, 
+    "originalPrice" : 109.0, 
+    "goodsDesc" : "让你的卧室焕然一新", 
+    "address" : "北京（满99包邮）", 
+    "describe" : "新", 
+    "goodsSkus" : [
+        "180*230cm", 
+        "230*245cm", 
+        "260*245cm"
+    ], 
+    "goodsType" : 1.0
+}
+{ 
+    "_id" : ObjectId("5d5a08db33574841afb7be68"), 
+    "goodsName" : "乳胶床褥垫", 
+    "goodsImg" : "/images/home/qj (4).png", 
+    "swiperImg" : "/images/home/qj (4).png", 
+    "goodsPrice" : 499.0, 
+    "originalPrice" : 599.0, 
+    "goodsDesc" : "加个乳胶床垫，睡得好一点", 
+    "address" : "北京（满99包邮）", 
+    "describe" : "新", 
+    "goodsSkus" : [
+        "180*230cm", 
+        "230*245cm", 
+        "260*245cm"
+    ], 
+    "goodsType" : 1.0
+=======
+    "_id" : ObjectId("5d25a7594a42de24e010b05f"), 
+    "goodsNum" : NumberInt(1), 
+    "goodsName" : "热干面", 
+    "goodsImg" : "/images/food/reganmian.jpg", 
+    "goodsPrice" : 4.5, 
+    "goodsTitle" : "好吃，就是太干了", 
+    "goodsDesc" : "热干面是中国十大面条之一，是湖北武汉最出名的小吃之一，有多种做法。通常以油、盐、芝麻酱、色拉油、香油、细香葱、大蒜子、辣萝卜丁，卤水汁、生抽为辅助材料。其色泽黄而油润，味道鲜美，由于热量高，也可以当作主食，营养早餐，补充人体所需的能量", 
+    "__v" : NumberInt(0), 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d25a82f4a42de24e010b060"), 
+    "goodsNum" : NumberInt(10), 
+    "goodsName" : "烩面", 
+    "goodsImg" : "/images/food/huimian.jpg", 
+    "goodsPrice" : NumberInt(15), 
+    "goodsTitle" : "好吃，就是太贵了", 
+    "goodsDesc" : "碗大宽无影，面长消失，像儿时的回忆，从来不敢去相信，大碗能让你开心，但这确是我本意，也许是一种天意，切磋武艺切磋一下，武林高手来一比高下，千军万马就一声令下，面馆相见这千钧一发，何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，武侠小说看流泪，从来不相信魔鬼，有时生活特别累，别馋大碗宽面别流泪，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会，相聚甚是少，情谊别轻易忘掉，Ah wu ah nah，Ah wu ah yeh，Ohh人生如戏开个小玩笑玩笑，别去轻易否定自己，你拥有你的天地，没人能够把你定义，快乐才是真谛，所以何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，感觉镜花水月，我一声笑傲江湖，我只身闯江湖，何必分出胜负，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会 相聚甚是少，情谊别轻易放掉，门前雨落下，我浪迹天涯，有儿女情长，悲欢离合呀，一声笑傲江湖，闯江湖，分出胜负，你看这个面它又长又宽，就像这个碗它又大又圆，你看这个面它又长又宽，就像这个碗它又大又圆", 
+    "__v" : NumberInt(0), 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d25a8c24a42de24e010b061"), 
+    "goodsNum" : NumberInt(2), 
+    "goodsName" : "担担面", 
+    "goodsImg" : "/images/food/dandanmian.jpg", 
+    "goodsPrice" : NumberInt(18), 
+    "goodsTitle" : "好吃，就是太辣了", 
+    "goodsDesc" : "担担面，是四川成都和自贡著名的地方传统面食小吃，据说源于挑夫们在街头挑着担担卖面，因而得名。担担面是将面粉擀制成面条，煮熟，舀上炒制的肉末而成。成菜面条细薄，卤汁酥香，咸鲜微辣，香气扑鼻，十分入味", 
+    "__v" : NumberInt(0), 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d25a8fd4a42de24e010b062"), 
+    "goodsNum" : NumberInt(1), 
+    "goodsName" : "biangbiang面", 
+    "goodsImg" : "/images/food/biangbiangmian.jpg", 
+    "goodsPrice" : NumberInt(12), 
+    "goodsTitle" : "好吃，就是太撑了", 
+    "goodsDesc" : "它是陕西关中特色传统风味面食，是传统的陕西裤带面。因为制作过程中有biang、biang的声音而得名。特指关中麦子磨成的面粉，通常手工拉成长宽厚的面条。由上等面粉精制而成，用酱油、醋、味精、花椒等佐料调入面汤，捞入面条，淋上烧热的植物油即成。", 
+    "__v" : NumberInt(0), 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d25a9374a42de24e010b063"), 
+    "goodsNum" : NumberInt(5), 
+    "goodsName" : "拉面", 
+    "goodsImg" : "/images/food/lamian.jpg", 
+    "goodsPrice" : NumberInt(8), 
+    "goodsTitle" : "好吃，就是肉太少了", 
+    "goodsDesc" : "拉面可以蒸、煮、烙、炸、炒，各有一番风味。拉面的技术性很强，要制好拉面必须掌握正确要领，即和面要防止脱水，晃条必须均匀， 出条要均匀圆滚，下锅要撒开， 防止蹲锅疙瘩。拉面根据不同口味和喜好还可制成小拉条、空心拉面、夹馅拉面、毛细、二细、大宽、龙须面、扁条拉面、水拉面等不同形状和品种。", 
+    "__v" : NumberInt(0), 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d25a9b54a42de24e010b064"), 
+    "goodsNum" : NumberInt(20), 
+    "goodsName" : "沙县小吃", 
+    "goodsImg" : "/images/food/shaxianxiaochi.jpg", 
+    "goodsPrice" : NumberInt(15), 
+    "goodsTitle" : "好吃，就是太淡了", 
+    "goodsDesc" : "吃沙县小吃是一种乡情浓郁、情趣十足的精神享受。沙县小吃遍布街头巷尾，同广大居民有着天然的感情联系。街头小吃是沙县的一大街景，其中 买豆干的尤具特色。五六个人围着街边的一张小方桌，用筷子夹着豆干，蘸着调料，送进口中。小吃摊又是一处天然的社交场所，一边享用小吃，一边听食客们闲聊，真可以叫人长见识。严格地说，没有这些情调，没有这种氛围。就体现不出真正的沙县小吃的文化内涵。", 
+    "__v" : NumberInt(0), 
+    "goodsType" : 0.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d25aa1b4a42de24e010b065"), 
+    "goodsNum" : NumberInt(10), 
+    "goodsName" : "抻面", 
+    "goodsImg" : "/images/food/chenmian.jpg", 
+    "goodsPrice" : NumberInt(20), 
+    "goodsTitle" : "好吃，就是分量太他妈足了", 
+    "goodsDesc" : "抻面又称拉面、大拉面，是一种独特的传统面食。滑爽筋道，鲜香清口，独具风味。既是面条的一个品种，又是面点制作的传统技术。操作技艺复杂，经和面、打条、拉抻而成面坯，细如龙须。沸水煮熟，浇海味三鲜卤、鱼片卤、大虾卤、鸡丝卤、蛤仁卤等。滑爽筋道，鲜香清口，独具风味。", 
+    "__v" : NumberInt(0), 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2da4e439a496c50dcbce34"), 
+    "goodsNum" : NumberInt(18), 
+    "goodsName" : "抻面", 
+    "goodsImg" : "/images/food/chenmian.jpg", 
+    "goodsPrice" : NumberInt(20), 
+    "goodsTitle" : "好吃，就是分量太他妈足了", 
+    "goodsDesc" : "抻面又称拉面、大拉面，是一种独特的传统面食。滑爽筋道，鲜香清口，独具风味。既是面条的一个品种，又是面点制作的传统技术。操作技艺复杂，经和面、打条、拉抻而成面坯，细如龙须。沸水煮熟，浇海味三鲜卤、鱼片卤、大虾卤、鸡丝卤、蛤仁卤等。滑爽筋道，鲜香清口，独具风味。", 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2da53a39a496c50dcbce41"), 
+    "goodsNum" : NumberInt(22), 
+    "goodsName" : "烩面", 
+    "goodsImg" : "/images/food/huimian.jpg", 
+    "goodsPrice" : NumberInt(15), 
+    "goodsTitle" : "好吃，就是太贵了", 
+    "goodsDesc" : "碗大宽无影，面长消失，像儿时的回忆，从来不敢去相信，大碗能让你开心，但这确是我本意，也许是一种天意，切磋武艺切磋一下，武林高手来一比高下，千军万马就一声令下，面馆相见这千钧一发，何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，武侠小说看流泪，从来不相信魔鬼，有时生活特别累，别馋大碗宽面别流泪，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会，相聚甚是少，情谊别轻易忘掉，Ah wu ah nah，Ah wu ah yeh，Ohh人生如戏开个小玩笑玩笑，别去轻易否定自己，你拥有你的天地，没人能够把你定义，快乐才是真谛，所以何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，感觉镜花水月，我一声笑傲江湖，我只身闯江湖，何必分出胜负，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会相聚甚是少，情谊别轻易放掉，门前雨落下，我浪迹天涯，有儿女情长，悲欢离合呀，一声笑傲江湖，闯江湖，分出胜负，你看这个面它又长又宽，就像这个碗它又大又圆，你看这个面它又长又宽，就像这个碗它又大又圆", 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2da607afa34a51bd84f4a2"), 
+    "goodsNum" : 12.0, 
+    "goodsName" : "烩面", 
+    "goodsImg" : "/images/food/huimian.jpg", 
+    "goodsPrice" : 15.0, 
+    "goodsTitle" : "好吃，就是太贵了", 
+    "goodsDesc" : "碗大宽无影，面长消失，像儿时的回忆，从来不敢去相信，大碗能让你开心，但这确是我本意，也许是一种天意，切磋武艺切磋一下，武林高手来一比高下，千军万马就一声令下，面馆相见这千钧一发，何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，武侠小说看流泪，从来不相信魔鬼，有时生活特别累，别馋大碗宽面别流泪，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会，相聚甚是少，情谊别轻易忘掉，Ah wu ah nah，Ah wu ah yeh，Ohh人生如戏开个小玩笑玩笑，别去轻易否定自己，你拥有你的天地，没人能够把你定义，快乐才是真谛，所以何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，感觉镜花水月，我一声笑傲江湖，我只身闯江湖，何必分出胜负，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会 相聚甚是少，情谊别轻易放掉，门前雨落下，我浪迹天涯，有儿女情长，悲欢离合呀，一声笑傲江湖，闯江湖，分出胜负，你看这个面它又长又宽，就像这个碗它又大又圆，你看这个面它又长又宽，就像这个碗它又大又圆", 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a3f"), 
+    "goodsNum" : 12.0, 
+    "goodsName" : "热干面", 
+    "goodsImg" : "/images/food/reganmian.jpg", 
+    "goodsPrice" : 4.5, 
+    "goodsTitle" : "好吃，就是太干了", 
+    "goodsDesc" : "热干面是中国十大面条之一，是湖北武汉最出名的小吃之一，有多种做法。通常以油、盐、芝麻酱、色拉油、香油、细香葱、大蒜子、辣萝卜丁，卤水汁、生抽为辅助材料。其色泽黄而油润，味道鲜美，由于热量高，也可以当作主食，营养早餐，补充人体所需的能量", 
+    "__v" : 0.0, 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a40"), 
+    "goodsNum" : 20.0, 
+    "goodsName" : "烩面", 
+    "goodsImg" : "/images/food/huimian.jpg", 
+    "goodsPrice" : 15.0, 
+    "goodsTitle" : "好吃，就是太贵了", 
+    "goodsDesc" : "碗大宽无影，面长消失，像儿时的回忆，从来不敢去相信，大碗能让你开心，但这确是我本意，也许是一种天意，切磋武艺切磋一下，武林高手来一比高下，千军万马就一声令下，面馆相见这千钧一发，何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，武侠小说看流泪，从来不相信魔鬼，有时生活特别累，别馋大碗宽面别流泪，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会，相聚甚是少，情谊别轻易忘掉，Ah wu ah nah，Ah wu ah yeh，Ohh人生如戏开个小玩笑玩笑，别去轻易否定自己，你拥有你的天地，没人能够把你定义，快乐才是真谛，所以何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，感觉镜花水月，我一声笑傲江湖，我只身闯江湖，何必分出胜负，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会 相聚甚是少，情谊别轻易放掉，门前雨落下，我浪迹天涯，有儿女情长，悲欢离合呀，一声笑傲江湖，闯江湖，分出胜负，你看这个面它又长又宽，就像这个碗它又大又圆，你看这个面它又长又宽，就像这个碗它又大又圆", 
+    "__v" : 0.0, 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a41"), 
+    "goodsNum" : 32.0, 
+    "goodsName" : "担担面", 
+    "goodsImg" : "/images/food/dandanmian.jpg", 
+    "goodsPrice" : 18.0, 
+    "goodsTitle" : "好吃，就是太辣了", 
+    "goodsDesc" : "担担面，是四川成都和自贡著名的地方传统面食小吃，据说源于挑夫们在街头挑着担担卖面，因而得名。担担面是将面粉擀制成面条，煮熟，舀上炒制的肉末而成。成菜面条细薄，卤汁酥香，咸鲜微辣，香气扑鼻，十分入味", 
+    "__v" : 0.0, 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a42"), 
+    "goodsNum" : 51.0, 
+    "goodsName" : "biangbiang面", 
+    "goodsImg" : "/images/food/biangbiangmian.jpg", 
+    "goodsPrice" : 12.0, 
+    "goodsTitle" : "好吃，就是太撑了", 
+    "goodsDesc" : "它是陕西关中特色传统风味面食，是传统的陕西裤带面。因为制作过程中有biang、biang的声音而得名。特指关中麦子磨成的面粉，通常手工拉成长宽厚的面条。由上等面粉精制而成，用酱油、醋、味精、花椒等佐料调入面汤，捞入面条，淋上烧热的植物油即成。", 
+    "__v" : 0.0, 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a43"), 
+    "goodsNum" : 25.0, 
+    "goodsName" : "拉面", 
+    "goodsImg" : "/images/food/lamian.jpg", 
+    "goodsPrice" : 8.0, 
+    "goodsTitle" : "好吃，就是肉太少了", 
+    "goodsDesc" : "拉面可以蒸、煮、烙、炸、炒，各有一番风味。拉面的技术性很强，要制好拉面必须掌握正确要领，即和面要防止脱水，晃条必须均匀， 出条要均匀圆滚，下锅要撒开， 防止蹲锅疙瘩。拉面根据不同口味和喜好还可制成小拉条、空心拉面、夹馅拉面、毛细、二细、大宽、龙须面、扁条拉面、水拉面等不同形状和品种。", 
+    "__v" : 0.0, 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a44"), 
+    "goodsNum" : 21.0, 
+    "goodsName" : "沙县小吃", 
+    "goodsImg" : "/images/food/shaxianxiaochi.jpg", 
+    "goodsPrice" : 15.0, 
+    "goodsTitle" : "好吃，就是太淡了", 
+    "goodsDesc" : "吃沙县小吃是一种乡情浓郁、情趣十足的精神享受。沙县小吃遍布街头巷尾，同广大居民有着天然的感情联系。街头小吃是沙县的一大街景，其中 买豆干的尤具特色。五六个人围着街边的一张小方桌，用筷子夹着豆干，蘸着调料，送进口中。小吃摊又是一处天然的社交场所，一边享用小吃，一边听食客们闲聊，真可以叫人长见识。严格地说，没有这些情调，没有这种氛围。就体现不出真正的沙县小吃的文化内涵。", 
+    "__v" : 0.0, 
+    "goodsType" : 0.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a45"), 
+    "goodsNum" : 30.0, 
+    "goodsName" : "抻面", 
+    "goodsImg" : "/images/food/chenmian.jpg", 
+    "goodsPrice" : 20.0, 
+    "goodsTitle" : "好吃，就是分量太他妈足了", 
+    "goodsDesc" : "抻面又称拉面、大拉面，是一种独特的传统面食。滑爽筋道，鲜香清口，独具风味。既是面条的一个品种，又是面点制作的传统技术。操作技艺复杂，经和面、打条、拉抻而成面坯，细如龙须。沸水煮熟，浇海味三鲜卤、鱼片卤、大虾卤、鸡丝卤、蛤仁卤等。滑爽筋道，鲜香清口，独具风味。", 
+    "__v" : 0.0, 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a46"), 
+    "goodsNum" : 18.0, 
+    "goodsName" : "抻面", 
+    "goodsImg" : "/images/food/chenmian.jpg", 
+    "goodsPrice" : 20.0, 
+    "goodsTitle" : "好吃，就是分量太他妈足了", 
+    "goodsDesc" : "抻面又称拉面、大拉面，是一种独特的传统面食。滑爽筋道，鲜香清口，独具风味。既是面条的一个品种，又是面点制作的传统技术。操作技艺复杂，经和面、打条、拉抻而成面坯，细如龙须。沸水煮熟，浇海味三鲜卤、鱼片卤、大虾卤、鸡丝卤、蛤仁卤等。滑爽筋道，鲜香清口，独具风味。", 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a47"), 
+    "goodsNum" : 12.0, 
+    "goodsName" : "烩面", 
+    "goodsImg" : "/images/food/huimian.jpg", 
+    "goodsPrice" : 15.0, 
+    "goodsTitle" : "好吃，就是太贵了", 
+    "goodsDesc" : "碗大宽无影，面长消失，像儿时的回忆，从来不敢去相信，大碗能让你开心，但这确是我本意，也许是一种天意，切磋武艺切磋一下，武林高手来一比高下，千军万马就一声令下，面馆相见这千钧一发，何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，武侠小说看流泪，从来不相信魔鬼，有时生活特别累，别馋大碗宽面别流泪，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会，相聚甚是少，情谊别轻易忘掉，Ah wu ah nah，Ah wu ah yeh，Ohh人生如戏开个小玩笑玩笑，别去轻易否定自己，你拥有你的天地，没人能够把你定义，快乐才是真谛，所以何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，感觉镜花水月，我一声笑傲江湖，我只身闯江湖，何必分出胜负，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会相聚甚是少，情谊别轻易放掉，门前雨落下，我浪迹天涯，有儿女情长，悲欢离合呀，一声笑傲江湖，闯江湖，分出胜负，你看这个面它又长又宽，就像这个碗它又大又圆，你看这个面它又长又宽，就像这个碗它又大又圆", 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e8267c288fb813ff24a48"), 
+    "goodsNum" : 11.0, 
+    "goodsName" : "烩面", 
+    "goodsImg" : "/images/food/huimian.jpg", 
+    "goodsPrice" : 15.0, 
+    "goodsTitle" : "好吃，就是太贵了", 
+    "goodsDesc" : "碗大宽无影，面长消失，像儿时的回忆，从来不敢去相信，大碗能让你开心，但这确是我本意，也许是一种天意，切磋武艺切磋一下，武林高手来一比高下，千军万马就一声令下，面馆相见这千钧一发，何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，武侠小说看流泪，从来不相信魔鬼，有时生活特别累，别馋大碗宽面别流泪，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会，相聚甚是少，情谊别轻易忘掉，Ah wu ah nah，Ah wu ah yeh，Ohh人生如戏开个小玩笑玩笑，别去轻易否定自己，你拥有你的天地，没人能够把你定义，快乐才是真谛，所以何必针锋相对，你看这碗又大又圆，相聚就要举起杯，你看这面又长又宽，感觉镜花水月，我一声笑傲江湖，我只身闯江湖，何必分出胜负，这碗大，千万别虚荣心作祟，真心话，这大碗宽面也很贵，先别说话，不想给你机会先别怼，就散了吧，听完这首歌就洗洗睡，我这一生漂泊四海，看淡了今朝，月高高的挂无暇，人生能有几次机会 相聚甚是少，情谊别轻易放掉，门前雨落下，我浪迹天涯，有儿女情长，悲欢离合呀，一声笑傲江湖，闯江湖，分出胜负，你看这个面它又长又宽，就像这个碗它又大又圆，你看这个面它又长又宽，就像这个碗它又大又圆", 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+}
+{ 
+    "_id" : ObjectId("5d2e829cc288fb813ff24a49"), 
+    "goodsNum" : 11.0, 
+    "goodsName" : "热干面", 
+    "goodsImg" : "/images/food/reganmian.jpg", 
+    "goodsPrice" : 4.5, 
+    "goodsTitle" : "好吃，就是太干了", 
+    "goodsDesc" : "热干面是中国十大面条之一，是湖北武汉最出名的小吃之一，有多种做法。通常以油、盐、芝麻酱、色拉油、香油、细香葱、大蒜子、辣萝卜丁，卤水汁、生抽为辅助材料。其色泽黄而油润，味道鲜美，由于热量高，也可以当作主食，营养早餐，补充人体所需的能量", 
+    "__v" : 0.0, 
+    "goodsType" : 1.0, 
+    "goodsSkus" : [
+        "S", 
+        "M", 
+        "L", 
+        "XL", 
+        "XXL"
+    ]
+>>>>>>> 3f0caf0862752a9bcece2df71549c4e088f8b6b5
+}

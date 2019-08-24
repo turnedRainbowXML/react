@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>异步操作</title>
+</head>
+<body>
+    <button id="btn">依次发送4个请求</button>
+    <button id="btn2">使用回调函数</button>
+    <button id="btn3">使用promise</button>
+    <button id="btn4">使用async/await</button>
+
+    <script src="../javascripts/jquery.js"></script>
+    <script>
+        function handleFile(name,fn){
+            return new Promise(function(resolve,reject){
+                var xhr = new XMLHttpRequest()
+                xhr.open('get',`http://localhost:8888/fs/${name}`,true)
+                xhr.send(null)
+                xhr.onreadystatechange = function(){
+                    if(xhr.readyState == 4 && xhr.status == 200){
+                        console.log(xhr.response)
+
+                        // 当传入回调函数的时候,就执行它
+                        if(fn) fn()
+
+                        // 如果异步请求执行完了,就执行resolve
+                        resolve()
+                    }
+                }      
+            })
+        }
+
+        document.querySelector('#btn').onclick = function(){
+            // 新建文件
+            handleFile('writeFile')
+            // 追加内容 
+            handleFile('appendFile')
+            // 读取内容
+            handleFile('readFile')
+            // 重命名
+            handleFile('rename')
+        }
+
+        /*
+            这样一直在回调函数里面嵌套回调函数,就叫回调地狱
+            这样不好,非常不利于阅读和维护
+        */
+        document.querySelector('#btn2').onclick = function(){
+            // 新建文件
+            handleFile('writeFile',function(){
+                // // 追加内容 
+                handleFile('appendFile',function(){
+                    // 读取内容
+                    handleFile('readFile',function(){
+                        // 重命名
+                        handleFile('rename')
+                    })
+                })
+            })
+        }        
+
+        /*
+            为了解决回调地狱,就要使用promise
+            使用的方法,就是用promose封装整个异步操作
+        */
+        document.querySelector('#btn3').onclick = function(){
+            // 新建文件
+            handleFile('writeFile')
+            .then(function(){
+                // 追加内容 
+                return handleFile('appendFile')
+            })
+            .then(() => {
+                // 读取内容 
+                return handleFile('readFile')
+            })
+            // 重命名内容 
+            .then(() => handleFile('rename'))
+        }
+
+        /*
+            为了让异步操作写起来更有同步的感觉,使用async/await
+        */
+        document.querySelector('#btn4').onclick = function(){
+            // 定义一个函数,然后在它前面加上一个async,表示这个函数里有异步操作
+            // 在每个异步操作的前面加上一个await,表示等这个异步操作执行完了之后再去走下一个
+            async function handleFiles(){
+                // 新建文件
+                await handleFile('writeFile')
+                // 追加内容 
+                await handleFile('appendFile')
+                // 读取内容
+                await handleFile('readFile')
+                // 重命名
+                await handleFile('rename')
+            }
+
+            handleFiles()
+        }        
+    </script>
+</body>
+</html>

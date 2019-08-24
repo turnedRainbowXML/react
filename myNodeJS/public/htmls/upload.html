@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>上传图片</title>
+</head>
+<body>
+    <!-- 只有添加multiple属性的时候,才能选择多张 -->
+    <input id="ipt" type="file" multiple>
+    <button id="btn">点击上传</button>
+    <!-- <img id="people" src="" alt=""> -->
+
+    <script src="../javascripts/jquery.js"></script>
+    <script>
+        const config = {
+            dev: 'localhost'
+        }
+
+        $('#btn').on('click',() => {
+            const files = $('#ipt')[0].files
+            
+            // 如果没有选择图片,files的长度就为0
+            if(files.length == 0){
+                alert('请选择图片')
+                return
+            }
+
+            // 使用H5新对象formData对象
+            const formData = new FormData()
+
+            for(var i=0;i<files.length;i++){
+                // 获取文件对象
+                const file = files[i]
+
+                // 往这个formData对象中添加键值对
+                formData.append('人物',file)
+            }
+
+            // 上传
+            $.ajax({
+                // 下面两项必须为false
+                // FormData和jquery都对数据进行了封装,两者放一起就会产生冲突,所以这时必须二选一,干掉jquery里面的数据处理
+                processData: false,
+                contentType: false,      
+                
+                method: 'post',
+                url: 'http://localhost:8888/upload/img',
+                data: formData,
+                success(res){
+                    const {code,msg,url} = res
+
+                    if(code == 1){
+                        // 遍历数组
+                        for(let e of url){
+                            // 动态创建img标签
+                            const img = $(`<img src="http://${config.dev}:8888${e}" />`)
+
+                            // 往body里面插入标签
+                            $('body').append(img)
+                        }
+                    }else{
+                        alert(msg)
+                    }
+                }
+            })
+        })
+    </script>
+</body>
+</html>

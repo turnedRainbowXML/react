@@ -1,0 +1,14 @@
+{
+<<<<<<< HEAD
+    "name": "xiao の api",
+    "version": "0.1.0",
+    "description": "一个前端小白的接口文档",
+    "url":"http://localhost:8888"
+  }
+=======
+    "name": "xiaobu の api",
+    "version": "0.1.0",
+    "description": "一个前端小白写的接口文档",
+    "url": "http://localhost:8888"
+}
+>>>>>>> 3f0caf0862752a9bcece2df71549c4e088f8b6b5

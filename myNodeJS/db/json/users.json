@@ -1,0 +1,114 @@
+{ 
+<<<<<<< HEAD
+    "_id" : ObjectId("5d560a99a9a80816a5910bc8"), 
+    "username" : "duoduo", 
+    "password" : "123456"
+}
+{ 
+    "_id" : ObjectId("5d5666a140fc5527487b0a2f"), 
+    "username" : "xiaoxiao", 
+    "password" : NumberInt(123456), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d5ce27ef1874f3f08c4af77"), 
+    "username" : "duo", 
+    "password" : NumberInt(123456), 
+=======
+    "_id" : ObjectId("5d258a226f1c0f1d74028d33"), 
+    "sex" : NumberInt(1), 
+    "username" : "dalei", 
+    "age" : NumberInt(32), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d258c391189a11e30787402"), 
+    "sex" : NumberInt(2), 
+    "username" : "chenhongying", 
+    "age" : NumberInt(18), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d258cd41189a11e30787403"), 
+    "sex" : NumberInt(0), 
+    "username" : "laowang", 
+    "age" : NumberInt(25), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d258d871189a11e30787405"), 
+    "sex" : NumberInt(0), 
+    "username" : "panshuai", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d269891125bb11c285a7915"), 
+    "sex" : NumberInt(0), 
+    "username" : "xiaobu", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d269923125bb11c285a7916"), 
+    "sex" : NumberInt(0), 
+    "username" : "dabu", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d269a22011cc504148abf08"), 
+    "sex" : NumberInt(0), 
+    "username" : "superbu", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d327e83cebb5710c028e72a"), 
+    "sex" : NumberInt(0), 
+    "username" : "laopan", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d3287afcebb5710c028e72b"), 
+    "sex" : NumberInt(0), 
+    "username" : "xiaoyingzi", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d328950cebb5710c028e72c"), 
+    "sex" : NumberInt(0), 
+    "username" : "brandon", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d328a68cebb5710c028e72d"), 
+    "sex" : NumberInt(0), 
+    "username" : "秋本明", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d3570ddb52cde1fe0d79871"), 
+    "sex" : NumberInt(0), 
+    "username" : "hehe", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d357179b52cde1fe0d79872"), 
+    "sex" : NumberInt(0), 
+    "username" : "haha", 
+    "password" : "123456", 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5d357410b52cde1fe0d79873"), 
+    "sex" : NumberInt(0), 
+    "username" : "huohuo", 
+    "password" : "123456", 
+>>>>>>> 3f0caf0862752a9bcece2df71549c4e088f8b6b5
+    "__v" : NumberInt(0)
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>get请求</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            margin: 80px auto;
+            border: 2px solid pink;
+            width: 400px;
+            height: 400px;
+        }
+        .cell{
+            margin: 80px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        label{
+            width: 100px;
+        }
+        input{
+            flex: 1;
+        }    
+    </style>
+</head>
+<body>
+    <form class="container" action="http://localhost:8888/users/login">
+        <p class="cell">
+            <label for="username">用户名</label>
+            <input type="text" id="username" name="username">
+        </p>  
+    
+        <p class="cell">
+            <label for="password">密码</label>
+            <input type="text" id="password" name="password">
+        </p>
+    
+        <p class="cell">
+            <button id="btn" type="submit">表单提交</button>
+            <button id="btn2">原生ajax</button>
+            <button id="btn3">使用jquery</button>
+        </p>
+    </form>
+
+    <script src="../javascripts/jquery.js"></script>
+    <script>
+        // 原生ajax
+        document.querySelector('#btn2').onclick = function(event){
+            // 禁止表单默认提交
+            event.preventDefault()
+
+            var username = document.querySelector('#username').value
+            var password = document.querySelector('#password').value
+
+            var xhr = new XMLHttpRequest()
+
+            xhr.open('get',`http://localhost:8888/users/login?username=${username}&password=${password}`,true)
+
+            xhr.send(null)
+
+            xhr.onreadystatechange = function(){
+                if(xhr.readyState == 4 && xhr.status == 200){
+                    console.log(xhr.response)
+                }
+            }
+        }
+
+        // 使用jquery
+        document.querySelector('#btn3').onclick = function(event){
+            var username = document.querySelector('#username').value
+            var password = document.querySelector('#password').value
+
+            $.ajax({
+                method: 'get',
+                url: 'http://localhost:8888/users/login',
+                data: {
+                    username,
+                    password
+                },
+                success(res){
+                    console.log(res)
+                }
+            })
+
+            // 禁止表单默认提交
+            return false
+        }        
+    </script>
+</body>
+</html>

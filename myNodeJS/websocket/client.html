@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>websocket</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            text-align: center;
+        }
+        #content{
+            margin: 50px auto 20px;
+            border: 2px solid pink;
+            width: 400px;
+            height: 500px;     
+            overflow: auto;      
+        }
+        #content p{
+            margin: 10px 0;
+        }
+        #ipt{
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content"></div>
+    <div>
+        <input id="ipt" type="text" placeholder="请输入聊天内容" onpaste="return false"> 
+        <button id="btn">点击发送</button>  
+    </div>
+
+    <script>
+        // 连接websocket服务
+<<<<<<< HEAD
+        const ws = new WebSocket('ws://192.168.50.115:8889')
+=======
+        const ws = new WebSocket('ws://192.168.50.138:8889')
+>>>>>>> 3f0caf0862752a9bcece2df71549c4e088f8b6b5
+        // const ws = new WebSocket('ws://localhost:8889')
+
+        // 监听这个连接
+        ws.onopen = () => {
+            console.log('连接成功')
+        }
+
+        // 监听服务端发来的消息
+        ws.onmessage = (msg) => {
+            const data = msg.data
+
+            // 往聊天框中添加消息
+            document.querySelector('#content').innerHTML += `<p>${data}</p>`
+        }
+
+        // 点击发送消息
+        document.querySelector('#btn').onclick = () => {
+            // 获取输入框的内容
+            const val = document.querySelector('#ipt').value
+
+            if(!val) return false
+
+            // 向服务端发送消息
+            ws.send(val)
+        }
+
+        // 监听服务端的断开
+        ws.onclose = () => {
+            console.log('聊天室被封了')
+        }
+    </script>
+</body>
+</html>
